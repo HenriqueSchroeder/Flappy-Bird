@@ -1,0 +1,51 @@
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(75, 75, 143), rgb(155, 78, 78));
+}
+
+.game-over {
+  position: absolute;
+  background: linear-gradient(90deg, rgb(205, 189, 19), rgb(255, 157, 0));
+
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.game-over div {
+  padding: 5px;
+}
+
+.text-game-over {
+  font-size: 45px;
+  font-family: Pixel;
+}
+
+.score {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.score-melhor {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.game-over button {
+  background: rgb(255, 157, 0);
+  border: none;
+  padding: 5px;
+}
+
+.game-over button:hover {
+    background: rgb(197, 123, 5);
+  }
+  
